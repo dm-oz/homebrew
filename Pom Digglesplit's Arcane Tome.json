@@ -1,0 +1,75 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "PomDigglesplitsArcaneTome",
+				"abbreviation": "PDAT",
+				"full": "Pom Digglesplit's Arcane Tome",
+				"url": "https://www.gmbinder.com/profile/DMOz",
+				"authors": [
+					"DM Oz"
+				],
+				"convertedBy": []
+			}
+		]
+	},
+	"spell": [
+		{
+			"name": "Project Self",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You create a bridge to another creature that allows you to cast any 1st-level spell with a range of \"Self\" as a projected spell through the target creature. The projected spell must also have a casting time of one Action, Bonus Action, or Reaction. The projected spell must not require {@status concentration} but can have any duration. Cantrips may not be projected unless the target is your familiar and the cantrip meets the other criteria. ",
+				"Choose a willing target creature within range. For the duration of the spell, the next 1st-level spell you cast with the range of \"Self\" originates from the target rather than from you. You do not gain any benefit from the casting of the projected spell, only the target creature. The target creature becomes the spell caster for the purposes of interpreting the projected spell's description. The spell uses your spell save DC and spell-casting ability even if the target creature is a spell caster themselves. ",
+				"This spell ends once a spell has been projected.",
+				"Familiars: You can cast this spell on your familiar at a range of up to 100 feet. However, to use this extended range, you must first use the action afforded in the find familiar spell to see through your familiar's eyes and hear what it hears until the start of your next turn. Furthermore, you may project unlimited cantrips through your familiar for the duration as long as they meet the other criteria noted above (range, casting time, and {@status concentration})."
+			],
+			"source": "PomDigglesplitsArcaneTome",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The total number of spell levels that may be projected equals the level Project Self is originally cast. Casting Project Self at 2nd level, for instance, allows two 1st-level spells or one 2nd-level spell to be projected. "
+					]
+				}
+			]
+		}
+	]
+}
