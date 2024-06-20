@@ -23,7 +23,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -48,7 +48,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -72,7 +72,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -108,7 +108,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -135,7 +135,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -160,7 +160,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -184,7 +184,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -217,7 +217,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -250,7 +250,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -284,7 +284,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -308,7 +308,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
@@ -342,7 +342,7 @@
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "isClassFeatureVariant": true,
             "featureType": [
-                "SRC"
+                "ED"
             ],
             "prerequisite": [
                 {
