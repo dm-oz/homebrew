@@ -27,7 +27,6 @@
             "source": "CotSR",
             "className": "Druid",
             "classSource": "PHB",
-            "page": 1,
             "subclassFeatures": [
                 "Circle Spells|Druid||StormRider|CotSR|2",
                 "Beast of the Ocean Surge|Druid||StormRider|CotSR|2",
@@ -250,6 +249,88 @@
                 "You can maintain your beast form despite grievous wounds. If you drop to 0 hit points while you're in beast form, you can make a saving throw as if you are concentrating on a spell against the damage you suffered. If you succeed, you drop to 1 hit point instead and remain in beast form.",
                 "If you are concentrating on a spell, that spell ends automatically on your attempt to remain in beast form.",
                 "At 15th level, you may use your reaction and expend any 1 spell slot to overcome a failed saving throw to remain in Wild Shape and drop to 1 hit point. You can also overcome a failed saving throw in beast form against transmutation magic like {@i moonbeam} and the gaze of a basilisk when you expend a spell slot in this manner. {@b Multiclass:} You must have 15 {@b druid} levels to gain this benefit."
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Circle Spells",
+            "source": "CotSR",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Storm Rider",
+            "subclassSource": "CotSR",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "When you choose this circle at 2nd level, you gain one extra cantrip as a Circle Spell from the following options: improved shillelagh (see below), eldritch blast, ray of frost, or shocking grasp. If you already know the chosen cantrip, you learn a different cantrip of your choice from the list of druid cantrips. The cantrip doesn't count against your number of cantrips known, but the cantrip is a druid cantrip for you even if it is normally unavailable to druids.",
+                "When you gain new cantrips at higher levels, your options include the cantrips listed above.",
+                "Improved shillelagh is identical to the cantrip shillelagh with the exception that the spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+            ]
+        },
+        {
+            "name": "Beast of the Ocean Surge",
+            "source": "CotSR",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Storm Rider",
+            "subclassSource": "CotSR",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "Beast of the Ocean Surge"
+            ]
+        },
+        {
+            "name": "Riding the Storm",
+            "source": "CotSR",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Storm Rider",
+            "subclassSource": "CotSR",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "Riding the Storm"
+            ]
+        },
+        {
+            "name": "Beast of the Storm Cloud",
+            "source": "CotSR",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Storm Rider",
+            "subclassSource": "CotSR",
+            "level": 6,
+            "header": 1,
+            "entries": [
+                "Beast of the Storm Cloud"
+            ]
+        },
+        {
+            "name": "Beast of the Whirlwind",
+            "source": "CotSR",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Storm Rider",
+            "subclassSource": "CotSR",
+            "level": 10,
+            "header": 1,
+            "entries": [
+                "Beast of the Whirlwind"
+            ]
+        },
+        {
+            "name": "Weather Resilience",
+            "source": "CotSR",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Storm Rider",
+            "subclassSource": "CotSR",
+            "level": 11,
+            "header": 1,
+            "entries": [
+                "Weather Resilience"
             ]
         }
     ]
