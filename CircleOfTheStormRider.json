@@ -129,8 +129,17 @@
             "featureType": [
                 "SRC"
             ],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
             "entries": [
-                "Prerequisite: Level 3",
                 "You can use your reaction to deflect the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your druid level. You must be in beast form, or you must not be wearing armor nor wielding a shield, in order to reduce damage in this way."
             ]
         },
@@ -141,8 +150,17 @@
             "featureType": [
                 "SRC"
             ],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 4,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
             "entries": [
-                "Prerequisite: Level 4",
                 "The air around you buffets you if you fall, reducing any falling damage you take by an amount equal to five times your druid level, even if you are incapacitated. No action is required on your part, as the environment responds to your fall automatically. Once you benefit from this damage reduction, you cannot benefit from it again until you have finished a long rest. You must be in beast form, or you must not be wearing armor nor wielding a shield, in order to reduce damage in this way."
             ]
         },
@@ -153,8 +171,17 @@
             "featureType": [
                 "SRC"
             ],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
             "entries": [
-                "Prerequisite: Level 5",
                 "Your speed increases by 10 feet while you are not wearing armor or wielding a shield. You may add your speed bonus to all speed types (walking, swimming, burrowing, etc.) of any beast you transform into.",
                 "At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move, including in beast form. Also at 9th level, if you are prone, standing up only requires 5 feet of movement. {@b Multiclass:} You must have 9 {@b druid} levels to gain these benefits."
             ]
@@ -166,8 +193,17 @@
             "featureType": [
                 "SRC"
             ],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
             "entries": [
-                "Prerequisite: Level 5",
                 "When you hit another creature with an attack using the Circle Spell cantrip you chose at 2nd level, you can expend any 1 spell slot to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. If the target is airborne or waterborne it makes its saving throw at a disadvantage. Any creature that succeeds its saving throw is immune to your stunning strike capability for 24 hours. {@b Storm Rider Adept feat:} This capability may only be gained with the Storm Rider Adept feat if you are a Circle of the Storm Rider Druid with 5 levels in the {@b druid} class."
             ]
         },
@@ -178,8 +214,17 @@
             "featureType": [
                 "SRC"
             ],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
             "entries": [
-                "Prerequisite: Level 5",
                 "You always have the following spells prepared, which do not count against the maximum number of spells you can prepare: {@i thunderwave}, {@i gust of wind}, and {@i call lightning}.",
                 "You may cast these spells while in beast form, and you can concentrate on {@i call lightning} and {@i gust of wind} simultaneously. If your concentration is broken, then both spells end. Your beast form can also breathe underwater even if it does not normally."
             ]
@@ -191,8 +236,17 @@
             "featureType": [
                 "SRC"
             ],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
             "entries": [
-                "Prerequisite: Level 11",
                 "You can maintain your beast form despite grievous wounds. If you drop to 0 hit points while you're in beast form, you can make a saving throw as if you are concentrating on a spell against the damage you suffered. If you succeed, you drop to 1 hit point instead and remain in beast form.",
                 "If you are concentrating on a spell, that spell ends automatically on your attempt to remain in beast form.",
                 "At 15th level, you may use your reaction and expend any 1 spell slot to overcome a failed saving throw to remain in Wild Shape and drop to 1 hit point. You can also overcome a failed saving throw in beast form against transmutation magic like {@i moonbeam} and the gaze of a basilisk when you expend a spell slot in this manner. {@b Multiclass:} You must have 15 {@b druid} levels to gain this benefit."
