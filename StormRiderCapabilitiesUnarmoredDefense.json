@@ -22,7 +22,7 @@
     },
     "optionalfeature": [
         {
-            "name": "Unarmored Defense1",
+            "name": "Unarmored Defense",
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
             "featureType": [
                 "SRC"
