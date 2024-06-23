@@ -20,24 +20,24 @@
             "SRC": "Storm Rider Capability"
         }
     },
-	"subclass": [
-		{
-			"name": "Circle of the Storm Rider",
-			"shortName": "StormRider",
-			"source": "CotSR",
-			"className": "Druid",
-			"classSource": "PHB",
-			"page": 1,
-			"subclassFeatures": [
-				"Circle Spells|Druid||StormRider|CotSR|2",
+    "subclass": [
+        {
+            "name": "Circle of the Storm Rider",
+            "shortName": "StormRider",
+            "source": "CotSR",
+            "className": "Druid",
+            "classSource": "PHB",
+            "page": 1,
+            "subclassFeatures": [
+                "Circle Spells|Druid||StormRider|CotSR|2",
                 "Beast of the Ocean Surge|Druid||StormRider|CotSR|2",
                 "Riding the Storm|Druid||StormRider|CotSR|2",
-				"Beast of the Storm Cloud|Druid||StormRider|CotSR|6",
-				"Beast of the Whirlwind|Druid||StormRider|CotSR|10",
-				"Weather Resilience|Druid||StormRider|CotSR|14"
-			]
-		}
-	],
+                "Beast of the Storm Cloud|Druid||StormRider|CotSR|6",
+                "Beast of the Whirlwind|Druid||StormRider|CotSR|10",
+                "Weather Resilience|Druid||StormRider|CotSR|14"
+            ]
+        }
+    ],
     "optionalfeature": [
         {
             "name": "Unarmored Defense",
