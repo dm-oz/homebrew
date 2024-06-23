@@ -1,0 +1,379 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "CircleoftheStormRiderDruidSubclassCapabilities",
+                "abbreviation": "SRC",
+                "full": "Storm Rider Capabilities",
+                "version": "1.2",
+                "url": "https://www.gmbinder.com/share/-NzJJ2pOpnnBzXizQj0U",
+                "authors": [
+                    "DM Oz"
+                ],
+                "convertedBy": [
+                    "DM Oz"
+                ],
+                "color": "63acb6"
+            }
+        ],
+        "optionalFeatureTypes": {
+            "SRC": "SRC"
+        }
+    },
+    "optionalfeature": [
+        {
+            "name": "Unarmored Defense",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept"
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier. You may also add your Wisdom modifier to your beast form's AC while in Wild Shape, and you can choose to make a Wisdom saving throw to maintain concentration on spells when damaged in any unarmored, unshielded form rather than a Constitution saving throw.",
+                "This capability is required for all 2nd-level Storm Rider druids; thereafter, this capability may be exchanged for another."
+            ]
+        },
+        {
+            "name": "Step of the Wind",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept"
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You can expend any 1 spell slot to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn. When a creature you can see hits you with an attack roll before the start of your next turn, you can use your reaction to force that creature to reroll. You can use this bonus action and reaction while in beast form. You must not be wearing armor or wielding a shield to gain this benefit."
+            ]
+        },
+        {
+            "name": "Primal Ferocity",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept"
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Once during the time you are in beast form, you can enter a rage as a bonus action. You cannot rage again until you expend another use of Wild Shape or finish a short or long rest.",
+                "While raging, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have advantage on Strength checks and Strength saving throws.",
+                        "When you make an attack other than a spell attack, you add your proficiency bonus to the damage roll.",
+                        "You have resistance to bludgeoning, piercing, and slashing damage."
+                    ]
+                },
+                "You can't cast or concentrate on spells while raging.",
+                "Your rage lasts for 1 minute. It ends early if you transform or are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.",
+                "At 15th level, your beast rage ends early only if you fall unconscious, you choose to end it, or you transform. {@b Multiclass:} You must have 15 druid levels to gain this benefit."
+            ]
+        },
+        {
+            "name": "Strike of the Rolling Wave",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept"
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "While you are wearing no armor and not wielding a shield, you can roll a d4 in place of the normal damage of your unarmed strike or simple weapon. This die increases to a d6 at 5th level, d8 at 11th level, and a d10 at 17th. At 6th level your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. {@b Multiclass:} You must have the required druid levels to gain these benefits.",
+                "When you use the Attack action with an unarmed strike or a simple weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.",
+                "You can choose to make two unarmed strikes instead of one in your bonus action by expending any 1 spell slot.",
+                "While in beast form, you may choose to use your unarmed damage die in place of one of the beast's available attacks that inflict bludgeoning, piercing, or slashing damage. For example, if the beast has a claw attack and a bite attack, you can elect to use your unarmed damage die in place of either the claw or bite damage, but not both. Your bonus action strikes for this form are the attack type you elected: claw or bite in this example. If a beast's attack does additional damage, such as poison damage, then that attack cannot be used as a bonus action strike."
+            ]
+        },
+        {
+            "name": "Evasive Speed",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept"
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You gain lightning-fast reflexes, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated, and you can't be wearing armor or wielding a shield.",
+                "At 7th level, you have advantage on initiative rolls. Additionally, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, instead you can use your reaction to take no damage if you succeed on the saving throw, and only half damage if you fail. {@b Multiclass:} You must have 7 druid levels to gain these benefits."
+            ]
+        },
+        {
+            "name": "Reckless Attack",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept"
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You have beast form behavior as unpredictable as a raging storm. While in beast form, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee attack rolls during this turn, but attack rolls against you have advantage until your next turn. You cannot use this attack capability unless you are in your beast form."
+            ]
+        },
+        {
+            "name": "Deflect Missiles",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept",
+                    "level": {
+                        "level": 3,
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "level": {
+                            "level": 3,
+                            "class": {
+                                "name": "Druid"
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You can use your reaction to deflect the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your druid level. You must be in beast form, or you must not be wearing armor nor wielding a shield, in order to reduce damage in this way."
+            ]
+        },
+        {
+            "name": "Favorable Wind",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept",
+                    "level": {
+                        "level": 4,
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "level": {
+                            "level": 4,
+                            "class": {
+                                "name": "Druid"
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "The air around you buffets you if you fall, reducing any falling damage you take by an amount equal to five times your druid level, even if you are incapacitated. No action is required on your part, as the environment responds to your fall automatically. Once you benefit from this damage reduction, you cannot benefit from it again until you have finished a long rest. You must be in beast form, or you must not be wearing armor nor wielding a shield, in order to reduce damage in this way."
+            ]
+        },
+        {
+            "name": "Swift Movement",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept",
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "level": {
+                            "level": 5,
+                            "class": {
+                                "name": "Druid"
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Your speed increases by 10 feet while you are not wearing armor or wielding a shield. You may add your speed bonus to all speed types (walking, swimming, burrowing, etc.) of any beast you transform into.",
+                "At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move, including in beast form. Also at 9th level, if you are prone, standing up only requires 5 feet of movement. {@b Multiclass:} You must have 9 {@b druid} levels to gain these benefits."
+            ]
+        },
+        {
+            "name": "Stunning Circle Spell",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "level": {
+                            "level": 5,
+                            "class": {
+                                "name": "Druid"
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "When you hit another creature with an attack using the Circle Spell cantrip you chose at 2nd level, you can expend any 1 spell slot to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. If the target is airborne or waterborne it makes its saving throw at a disadvantage. Any creature that succeeds its saving throw is immune to your stunning strike capability for 24 hours. {@b Storm Rider Adept feat:} This capability may only be gained with the Storm Rider Adept feat if you are a Circle of the Storm Rider Druid with 5 levels in the {@b druid} class."
+            ]
+        },
+        {
+            "name": "Command of the Elements",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept",
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "level": {
+                            "level": 5,
+                            "class": {
+                                "name": "Druid"
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You always have the following spells prepared, which do not count against the maximum number of spells you can prepare: {@i thunderwave}, {@i gust of wind}, and {@i call lightning}.",
+                "You may cast these spells while in beast form, and you can concentrate on {@i call lightning} and {@i gust of wind} simultaneously. If your concentration is broken, then both spells end. Your beast form can also breathe underwater even if it does not normally."
+            ]
+        },
+        {
+            "name": "Relentless Wild Shape (11th level druid required).",
+            "source": "CircleoftheStormRiderDruidSubclassCapabilities",
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "feat": "Storm Rider Adept",
+                    "level": {
+                        "level": 11,
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                },
+                {
+                    "subclass": {
+                        "subclass": "Circle of the Storm Rider",
+                        "level": {
+                            "level": 11,
+                            "class": {
+                                "name": "Druid"
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You can maintain your beast form despite grievous wounds. If you drop to 0 hit points while you're in beast form, you can make a saving throw as if you are concentrating on a spell against the damage you suffered. If you succeed, you drop to 1 hit point instead and remain in beast form.",
+                "If you are concentrating on a spell, that spell ends automatically on your attempt to remain in beast form.",
+                "At 15th level, you may use your reaction and expend any 1 spell slot to overcome a failed saving throw to remain in Wild Shape and drop to 1 hit point. You can also overcome a failed saving throw in beast form against transmutation magic like {@i moonbeam} and the gaze of a basilisk when you expend a spell slot in this manner. {@b Multiclass:} You must have 15 {@b druid} levels to gain this benefit."
+            ]
+        }
+    ]
+}
