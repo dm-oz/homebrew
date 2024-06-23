@@ -24,7 +24,6 @@
         {
             "name": "Unarmored Defense",
             "source": "CircleoftheStormRiderDruidSubclassCapabilities",
-            "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
             ],
