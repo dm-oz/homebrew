@@ -40,7 +40,7 @@
     "optionalfeature": [
         {
             "name": "Unarmored Defense",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -52,7 +52,7 @@
         },
         {
             "name": "Step of the Wind",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -63,7 +63,7 @@
         },
         {
             "name": "Primal Ferocity",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -86,7 +86,7 @@
         },
         {
             "name": "Strike of the Rolling Wave",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -100,7 +100,7 @@
         },
         {
             "name": "Evasive Speed",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -112,7 +112,7 @@
         },
         {
             "name": "Reckless Attack",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -123,7 +123,7 @@
         },
         {
             "name": "Deflect Missiles",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -144,7 +144,7 @@
         },
         {
             "name": "Favorable Wind",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -165,7 +165,7 @@
         },
         {
             "name": "Swift Movement",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -187,7 +187,7 @@
         },
         {
             "name": "Stunning Circle Spell",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -208,7 +208,7 @@
         },
         {
             "name": "Command of the Elements",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
@@ -230,7 +230,7 @@
         },
         {
             "name": "Relentless Wild Shape",
-            "source": "CircleOfTheStormRider",
+            "source": "CotSR",
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
