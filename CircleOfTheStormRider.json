@@ -274,18 +274,6 @@
                 {
                     "type": "refSubclassFeature",
                     "subclassFeature": "Riding the Storm|Druid||StormRider|CotSR|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Beast of the Storm Cloud|Druid||StormRider|CotSR|6"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Beast of the Whirlwind|Druid||StormRider|CotSR|10"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Weather Resilience|Druid||StormRider|CotSR|14"
                 }
             ]
         },
