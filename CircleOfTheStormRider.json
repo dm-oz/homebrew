@@ -252,7 +252,43 @@
             ]
         }
     ],
-    "subclassFeature": [
+    "subclassFeature": [		
+        {
+            "name": "Circle of the Storm Rider",
+            "source": "CotSR",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Storm Rider",
+            "subclassSource": "CotSR",
+            "level": 2,
+            "entries": [
+                "As they communed with nature, these Druids harnessed the fury of the barbarian and the serene calm of the monk, seamlessly transitioning between states of primal rage and tranquil meditation. As seafaring folk, the discipline of a ship’s crew is most urgent in the face of a freezing ocean gale, and yet druids also learn that that same power can be harnessed by unleashing the storm within. Each strives to achieve their innate “horizon”, the world-surrounding edge where sky, peace, and life meet sea, turmoil, and death. The horizon is the birthplace of typhoons and tsunamis, with sky their mother and sea their father, and as children of the horizon they believe its untapped power resides inside us all.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Circle Spells|Druid||StormRider|CotSR|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Beast of the Ocean Surge|Druid||StormRider|CotSR|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Riding the Storm|Druid||StormRider|CotSR|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Beast of the Storm Cloud|Druid||StormRider|CotSR|6"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Beast of the Whirlwind|Druid||StormRider|CotSR|10"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Weather Resilience|Druid||StormRider|CotSR|14"
+                }
+            ]
+        },
         {
             "name": "Circle Spells",
             "source": "CotSR",
