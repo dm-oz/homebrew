@@ -326,52 +326,72 @@
                 "Starting at 2nd level, you gain 2 capabilities from the list below. You gain Unarmored Defense and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
                 "Furthermore, each time you gain a level, you can replace any one capability with a new one you qualify for. You can only use these capabilities while in Wild Shape form or while not wearing armor nor wielding a shield.",
                 "Some capabilities can only be used while in Wild Shape."
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Unarmored Defense|CotSR",
-							"name": "Unarmored Defense"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Step of the Wind|CotSR",
-							"name": "Step of the Wind"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Primal Ferocity|CotSR",
-							"name": "Primal Ferocity"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Strike of the Rolling Wave|CotSR",
-							"name": "Strike of the Rolling Wave"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Evasive Speed|CotSR",
-							"name": "Evasive Speed"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Reckless Attack|CotSR",
-							"name": "Reckless Attack"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Deflect Missiles|CotSR",
-							"name": "Deflect Missiles"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Favorable Wind|CotSR",
-							"name": "Favorable Wind"
-						}
-					]
-				}
+                {
+                    "type": "options",
+                    "count": 2,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Unarmored Defense|CotSR",
+                            "name": "Unarmored Defense"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Step of the Wind|CotSR",
+                            "name": "Step of the Wind"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Primal Ferocity|CotSR",
+                            "name": "Primal Ferocity"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Strike of the Rolling Wave|CotSR",
+                            "name": "Strike of the Rolling Wave"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Evasive Speed|CotSR",
+                            "name": "Evasive Speed"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Reckless Attack|CotSR",
+                            "name": "Reckless Attack"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Deflect Missiles|CotSR",
+                            "name": "Deflect Missiles"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Favorable Wind|CotSR",
+                            "name": "Favorable Wind"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Swift Movement|CotSR",
+                            "name": "Swift Movement"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Stunning Circle Spell|CotSR",
+                            "name": "Stunning Circle Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Command of the Elements|CotSR",
+                            "name": "Command of the Elements"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Relentless Wild Shape|CotSR",
+                            "name": "Relentless Wild Shape"
+                        }
+                    ]
+                }
             ]
         },
         {
