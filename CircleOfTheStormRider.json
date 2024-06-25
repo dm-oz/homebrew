@@ -304,6 +304,13 @@
             "entries": [
                 "At 2nd level, you may Wild Shape into a beast with a swimming speed and a maximum challenge rating of 1/4. You also gain a swimming speed equal to your walking speed in your normal form.",
                 "If you know the cantrip druidcraft, you may cast it as a bonus action but only on the same turn as you use your action to transform into your Wild Shape. You also gain the following optional effects for druidcraft:"
+                {
+                    "type": "list",
+                    "items": [
+                        "You instantly create a harmless sensory effect such as the scent of ocean spray, a blast of freezing air, the rolling rumble of distant thunder or pouring rain, or a faint blue flash of electricity. The effect must fit in a 5-foot cube.",
+                        "You instantly dry, drench, thaw, or freeze an object no larger than 1 cubic foot. Unless kept at subzero temperature, an object you freeze thaws by the beginning of your next turn, at which point it is drenched. A submerged object that is neither worn nor carried when frozen is encased in ice for one round and rises 60 feet toward the surface of the water before it thaws."
+                    ]
+                }
             ]
         },
         {
@@ -316,7 +323,9 @@
             "level": 2,
             "header": 1,
             "entries": [
-                "Riding the Storm"
+                "Starting at 2nd level, you gain 2 capabilities from the list below. You gain Unarmored Defense and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
+                "Furthermore, each time you gain a level, you can replace any one capability with a new one you qualify for. You can only use these capabilities while in Wild Shape form or while not wearing armor nor wielding a shield.",
+                "Some capabilities can only be used while in Wild Shape."
             ]
         },
         {
@@ -329,7 +338,7 @@
             "level": 6,
             "header": 1,
             "entries": [
-                "Beast of the Storm Cloud"
+                "Starting at 6th level, you can Wild Shape into any beast of challenge rating of 1/2 or lower, including beasts with a flying speed. If you know the cantrip druidcraft you may cast it while in Wild Shape."
             ]
         },
         {
@@ -342,7 +351,9 @@
             "level": 10,
             "header": 1,
             "entries": [
-                "Beast of the Whirlwind"
+                "At 10th level while in Wild Shape, you can use your action to expend any 1 spell slot and change your beast form into a new form with a maximum challenge rating equal to 1 + the level of the spell slot expended. When you transform, as part of your action you may also choose a number of creatures you can see equal to the spell slot level you used. Those creatures can communicate with you normally while you are in beast form.",
+                "For instance, you can expend a level 9 spell slot and transform into a beast with a maximum challenge rating of 10 and can communicate with up to 9 creatures of your choice you could see when you transformed.",
+                "Additionally, when you use your action to transform into a beast, you can use your bonus action to expend spell slots for an improved Wild Shape on the same turn. You can only use your bonus action in this way on the same turn that you use your action to transform into your Wild Shape from your normal form."
             ]
         },
         {
@@ -355,7 +366,8 @@
             "level": 14,
             "header": 1,
             "entries": [
-                "Weather Resilience"
+                "You have resistance to cold, thunder, and lightning damage in any form at 14th level. Furthermore, if you fail a saving throw to maintain concentration on a spell when damaged by cold, thunder, and lightning, you can use your reaction to reroll the saving throw. You cannot use this aspect again until you have finished a short or long rest.",
+                "Your resilience also affords you advantage on saving throws in any form against effects that would impose the prone condition or the grappled condition, if you are not wearing armor or wielding a shield."
             ]
         }
     ]
