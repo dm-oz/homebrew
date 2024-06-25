@@ -303,7 +303,7 @@
             "header": 1,
             "entries": [
                 "At 2nd level, you may Wild Shape into a beast with a swimming speed and a maximum challenge rating of 1/4. You also gain a swimming speed equal to your walking speed in your normal form.",
-                "If you know the cantrip druidcraft, you may cast it as a bonus action but only on the same turn as you use your action to transform into your Wild Shape. You also gain the following optional effects for druidcraft:"
+                "If you know the cantrip druidcraft, you may cast it as a bonus action but only on the same turn as you use your action to transform into your Wild Shape. You also gain the following optional effects for druidcraft:",
                 {
                     "type": "list",
                     "items": [
