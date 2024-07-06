@@ -376,6 +376,7 @@
                             "optionalfeature": "Command of the Elements|CotSR",
                             "name": "Command of the Elements (5th level)"
                         },
+                        {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Evasive Speed|CotSR",
                             "name": "Evasive Speed (7th level)"
