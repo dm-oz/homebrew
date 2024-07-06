@@ -347,10 +347,6 @@
                             "name": "Strike of the Rolling Wave"
                         },
                         {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Evasive Speed|CotSR",
-                            "name": "Evasive Speed"
-                        },
                         {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Reckless Attack|CotSR",
@@ -359,32 +355,36 @@
                         {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Deflect Missiles|CotSR",
-                            "name": "Deflect Missiles"
+                            "name": "Deflect Missiles (3rd level)"
                         },
                         {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Favorable Wind|CotSR",
-                            "name": "Favorable Wind"
+                            "name": "Favorable Wind (4th level)"
                         },
                         {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Swift Movement|CotSR",
-                            "name": "Swift Movement"
+                            "name": "Swift Movement (5th level)"
                         },
                         {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Stunning Circle Spell|CotSR",
-                            "name": "Stunning Circle Spell"
+                            "name": "Stunning Circle Spell (5th level)"
                         },
                         {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Command of the Elements|CotSR",
-                            "name": "Command of the Elements"
+                            "name": "Command of the Elements (5th level)"
+                        },
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Evasive Speed|CotSR",
+                            "name": "Evasive Speed (7th level)"
                         },
                         {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Relentless Wild Shape|CotSR",
-                            "name": "Relentless Wild Shape"
+                            "name": "Relentless Wild Shape (11th level)"
                         }
                     ]
                 }
@@ -436,13 +436,13 @@
         {
             "name": "Storm Rider Adept",
             "source": "CotSR",
-			"prerequisite": [
-				{
-					"other": [
-						"Spellcaster and beast shapechanger"
-					]
-				}
-			],
+            "prerequisite": [
+                {
+                    "other": [
+                        "Spellcaster and beast shapechanger"
+                    ]
+                }
+            ],
             "entries": [
                 "Your studies of the druidic Circle of the Storm Rider have granted you the following benefit: Choose one capability from the list of {@filter Storm Rider Capabilities|optionalfeatures|feature type=SRC}. If the capability has a prerequisite of any kind, you can choose that capability only if you're a druid who meets the prerequisite.",
                 "Whenever you gain a level, you can replace the capability with another one from the Circle of the Storm Rider subclass.",
