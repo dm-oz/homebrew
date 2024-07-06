@@ -347,7 +347,6 @@
                             "name": "Strike of the Rolling Wave"
                         },
                         {
-                        {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Reckless Attack|CotSR",
                             "name": "Reckless Attack"
