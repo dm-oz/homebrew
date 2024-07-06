@@ -431,5 +431,88 @@
                 "You have resistance to cold, thunder, and lightning damage in any form at 14th level. Furthermore, if you fail a saving throw to maintain concentration on a spell when damaged by cold, thunder, and lightning, you can use your reaction to reroll the saving throw. You cannot use this aspect again until you have finished a short or long rest."
             ]
         }
+    ],
+    "feat": [
+        {
+            "name": "Storm Rider Adept",
+            "source": "CotSR",
+			"prerequisite": [
+				{
+					"other": [
+						"Spellcaster and beast shapechanger"
+					]
+				}
+			],
+            "entries": [
+                "Your studies of the druidic Circle of the Storm Rider have granted you the following benefit: Choose one capability from the list of Storm Rider Capabilities. If the capability has a prerequisite of any kind, you can choose that capability only if you're a druid who meets the prerequisite.",
+                "Whenever you gain a level, you can replace the capability with another one from the Circle of the Storm Rider subclass.",
+                "You must be a {@b spellcaster} and {@b shapechanger} who can transform into a {@b beast} in order to take this feat, e.g., werewolf wizard or druid, but not a doppelganger cleric.",
+                {
+                    "type": "options",
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Unarmored Defense|CotSR",
+                            "name": "Unarmored Defense"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Step of the Wind|CotSR",
+                            "name": "Step of the Wind"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Primal Ferocity|CotSR",
+                            "name": "Primal Ferocity"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Strike of the Rolling Wave|CotSR",
+                            "name": "Strike of the Rolling Wave"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Evasive Speed|CotSR",
+                            "name": "Evasive Speed"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Reckless Attack|CotSR",
+                            "name": "Reckless Attack"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Deflect Missiles|CotSR",
+                            "name": "Deflect Missiles"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Favorable Wind|CotSR",
+                            "name": "Favorable Wind"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Swift Movement|CotSR",
+                            "name": "Swift Movement"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Stunning Circle Spell|CotSR",
+                            "name": "Stunning Circle Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Command of the Elements|CotSR",
+                            "name": "Command of the Elements"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Relentless Wild Shape|CotSR",
+                            "name": "Relentless Wild Shape"
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
