@@ -28,7 +28,7 @@
             "className": "Druid",
             "classSource": "PHB",
             "subclassFeatures": [
-                "Circle Spells|Druid||Storm Rider|CotSR|2",
+                "Circle Spell|Druid||Storm Rider|CotSR|2",
                 "Beast of the Ocean Surge|Druid||Storm Rider|CotSR|2",
                 "Riding the Storm|Druid||Storm Rider|CotSR|2",
                 "Beast of the Storm Cloud|Druid||Storm Rider|CotSR|6",
@@ -214,13 +214,13 @@
                         }
                     },
                     "otherSummary": {
-                        "entry": "{@subclassFeature Circle Spells|Druid||Storm Rider|CotSR|2}",
-                        "entrySummary": "Circle Spell"
+                        "entry": "{@subclassFeature Circle Spell|Druid||Storm Rider|CotSR|2}",
+                        "entrySummary": "Storm Rider Circle Spell"
                     }
                 }
             ],
             "entries": [
-                "When you hit another creature with an attack using your selected Circle Spell cantrip, you can expend any 1 spell slot to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. If the target is airborne or waterborne it makes its saving throw at a disadvantage. Any creature that succeeds its saving throw is immune to your stunning strike capability for 24 hours. {@b Storm Rider Adept feat:} This capability may only be gained with the Storm Rider Adept feat if you are a Circle of the Storm Rider Druid with 5 levels in the {@b druid} class."
+                "When you hit another creature with an attack using your selected {@subclassFeature Circle Spell|Druid||Storm Rider|CotSR|2} cantrip, you can expend any 1 spell slot to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. If the target is airborne or waterborne it makes its saving throw at a disadvantage. Any creature that succeeds its saving throw is immune to your stunning strike capability for 24 hours. {@b Storm Rider Adept feat:} This capability may only be gained with the Storm Rider Adept feat if you are a Circle of the Storm Rider Druid with 5 levels in the {@b druid} class."
             ]
         },
         {
@@ -295,7 +295,7 @@
             ]
         },
         {
-            "name": "Circle Spells",
+            "name": "Circle Spell",
             "source": "CotSR",
             "className": "Druid",
             "classSource": "PHB",
@@ -499,9 +499,8 @@
             "source": "CotSR",
             "prerequisite": [
                 {
-                    "other": [
-                        "Spellcaster and beast shapechanger"
-                    ]
+                    "other": "Spellcaster and beast shapechanger",
+                    "spellcasting": true
                 }
             ],
             "entries": [
