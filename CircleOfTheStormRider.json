@@ -432,7 +432,6 @@
                     "type": "options",
                     "count": 3,
                     "entries": [
-                        "{@optFeature Unarmored Defense|CotSR}",
                         {
                             "type": "refOptionalfeature",
                             "optionalfeature": "Unarmored Defense|CotSR",
