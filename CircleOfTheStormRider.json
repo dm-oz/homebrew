@@ -427,68 +427,7 @@
             "level": 6,
             "header": 2,
             "entries": [
-                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}",
-                {
-                    "type": "options",
-                    "count": 3,
-                    "entries": [
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Unarmored Defense|CotSR",
-                            "name": "Unarmored Defense"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Step of the Wind|CotSR",
-                            "name": "Step of the Wind"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Primal Ferocity|CotSR",
-                            "name": "Primal Ferocity"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Strike of the Rolling Wave|CotSR",
-                            "name": "Strike of the Rolling Wave"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Reckless Attack|CotSR",
-                            "name": "Reckless Attack"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Deflect Missiles|CotSR",
-                            "name": "Deflect Missiles (3rd level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Favorable Wind|CotSR",
-                            "name": "Favorable Wind (4th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Swift Movement|CotSR",
-                            "name": "Swift Movement (5th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Stunning Circle Spell|CotSR",
-                            "name": "Stunning Circle Spell (5th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Command of the Elements|CotSR",
-                            "name": "Command of the Elements (5th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Evasive Speed|CotSR",
-                            "name": "Evasive Speed (7th level)"
-                        }
-                    ]
-                }
+                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}"
             ]
         },
         {
@@ -516,73 +455,7 @@
             "level": 10,
             "header": 2,
             "entries": [
-                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}",
-                {
-                    "type": "options",
-                    "count": 4,
-                    "entries": [
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Unarmored Defense|CotSR",
-                            "name": "Unarmored Defense"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Step of the Wind|CotSR",
-                            "name": "Step of the Wind"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Primal Ferocity|CotSR",
-                            "name": "Primal Ferocity"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Strike of the Rolling Wave|CotSR",
-                            "name": "Strike of the Rolling Wave"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Reckless Attack|CotSR",
-                            "name": "Reckless Attack"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Deflect Missiles|CotSR",
-                            "name": "Deflect Missiles (3rd level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Favorable Wind|CotSR",
-                            "name": "Favorable Wind (4th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Swift Movement|CotSR",
-                            "name": "Swift Movement (5th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Stunning Circle Spell|CotSR",
-                            "name": "Stunning Circle Spell (5th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Command of the Elements|CotSR",
-                            "name": "Command of the Elements (5th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Evasive Speed|CotSR",
-                            "name": "Evasive Speed (7th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Relentless Wild Shape|CotSR",
-                            "name": "Relentless Wild Shape (11th level)"
-                        }
-                    ]
-                }
+                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}"
             ]
         },
         {
@@ -608,73 +481,7 @@
             "level": 14,
             "header": 2,
             "entries": [
-                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}",
-                {
-                    "type": "options",
-                    "count": 5,
-                    "entries": [
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Unarmored Defense|CotSR",
-                            "name": "Unarmored Defense"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Step of the Wind|CotSR",
-                            "name": "Step of the Wind"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Primal Ferocity|CotSR",
-                            "name": "Primal Ferocity"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Strike of the Rolling Wave|CotSR",
-                            "name": "Strike of the Rolling Wave"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Reckless Attack|CotSR",
-                            "name": "Reckless Attack"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Deflect Missiles|CotSR",
-                            "name": "Deflect Missiles (3rd level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Favorable Wind|CotSR",
-                            "name": "Favorable Wind (4th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Swift Movement|CotSR",
-                            "name": "Swift Movement (5th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Stunning Circle Spell|CotSR",
-                            "name": "Stunning Circle Spell (5th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Command of the Elements|CotSR",
-                            "name": "Command of the Elements (5th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Evasive Speed|CotSR",
-                            "name": "Evasive Speed (7th level)"
-                        },
-                        {
-                            "type": "refOptionalfeature",
-                            "optionalfeature": "Relentless Wild Shape|CotSR",
-                            "name": "Relentless Wild Shape (11th level)"
-                        }
-                    ]
-                }
+                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}"
             ]
         }
     ],
