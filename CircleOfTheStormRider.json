@@ -209,10 +209,10 @@
                         "class": {
                             "name": "Druid"
                         }
+                    },
+                    {
+                        "other": "{@subclassFeature Circle Spells|Druid||Storm Rider|CotSR|2}"
                     }
-                },
-                {
-                    "other": "{@subclassFeature Circle Spells|Druid||Storm Rider|CotSR|2}"
                 }
             ],
             "entries": [
