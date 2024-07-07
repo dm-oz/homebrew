@@ -208,11 +208,15 @@
                         "level": 5,
                         "class": {
                             "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Storm Rider"
                         }
-                    }
-                },
-                {
-                    "other": "{@subclassFeature Circle Spells|Druid||Storm Rider|CotSR|2}"
+                    },
+					"otherSummary": {
+						"entry": "{@subclassFeature Circle Spells|Druid||Storm Rider|CotSR|2}",
+						"entrySummary": "Circle Spell"
+					}
                 }
             ],
             "entries": [
