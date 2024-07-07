@@ -72,7 +72,7 @@
                 "SRC"
             ],
             "entries": [
-                "Once during the time you are in beast form, you can enter a rage as a bonus action. You cannot rage again until you expend another use of Wild Shape or finish a short or long rest.",
+                "Once during the time you are in beast form, you can enter a rage as a bonus action. You cannot rage again until you change into a new beast form or finish a short or long rest.",
                 "While raging, you gain the following benefits:",
                 {
                     "type": "list",
@@ -171,7 +171,7 @@
                 }
             ],
             "entries": [
-                "The air around you buffets you if you fall, reducing any falling damage you take in any form by an amount equal to five times your druid level, even if you are incapacitated. No action is required on your part, as the environment responds to your fall automatically. Once you benefit from this damage reduction, you cannot benefit from it again until you have finished a long rest. You must not be wearing armor nor wielding a shield in order to reduce damage in this way."
+                "The air around you buffets you if you fall, reducing any falling damage you take in any form by an amount equal to five times your druid level, even if you are {@condition incapacitated}. No action is required on your part, as the environment responds to your fall automatically. Once you benefit from this damage reduction, you cannot benefit from it again until you have finished a long rest. You must not be wearing armor nor wielding a shield in order to reduce damage in this way."
             ]
         },
         {
@@ -333,7 +333,7 @@
             "level": 2,
             "header": 2,
             "entries": [
-                "Starting at 2nd level, you gain 2 capabilities from the list below. You gain {@b {@i Unarmored Defense}} and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
+                "Starting at 2nd level, you gain 2 {@filter Storm Rider Capabilities|optionalfeatures|feature type=SRC} from the list below. You gain {@b {@i Unarmored Defense}} and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
                 "Furthermore, each time you gain a level, you can replace any one capability with a new one you qualify for. You can only use these capabilities while in {@classFeature Wild Shape|Druid|PHB|2|PHB} form or while not wearing armor nor wielding a shield.",
                 "Some capabilities can only be used while in {@classFeature Wild Shape|Druid|PHB|2|PHB}.",
                 "{@b Multiclass:} Circle of the Storm Riders who are multiclass must count only their {@b druid} levels to determine eligibility for a restricted capability. However, each time you gain a level in any class you can replace one capability with a new one.",
@@ -428,7 +428,7 @@
             "level": 6,
             "header": 2,
             "entries": [
-                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}"
+                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}."
             ]
         },
         {
@@ -456,7 +456,7 @@
             "level": 10,
             "header": 2,
             "entries": [
-                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}"
+                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}."
             ]
         },
         {
@@ -482,7 +482,7 @@
             "level": 14,
             "header": 2,
             "entries": [
-                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}"
+                "Choose an additional {@filter Storm Rider Capability|optionalfeatures|feature type=SRC}."
             ]
         }
     ],
