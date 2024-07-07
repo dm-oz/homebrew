@@ -213,7 +213,7 @@
                 }
             ],
             "entries": [
-                "When you hit another creature with an attack using the Circle Spell cantrip you chose at 2nd level, you can expend any 1 spell slot to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. If the target is airborne or waterborne it makes its saving throw at a disadvantage. Any creature that succeeds its saving throw is immune to your stunning strike capability for 24 hours. {@b Storm Rider Adept feat:} This capability may only be gained with the Storm Rider Adept feat if you are a Circle of the Storm Rider Druid with 5 levels in the {@b druid} class."
+                "When you hit another creature with an attack using your selected Circle Spell cantrip, you can expend any 1 spell slot to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. If the target is airborne or waterborne it makes its saving throw at a disadvantage. Any creature that succeeds its saving throw is immune to your stunning strike capability for 24 hours. {@b Storm Rider Adept feat:} This capability may only be gained with the Storm Rider Adept feat if you are a Circle of the Storm Rider Druid with 5 levels in the {@b druid} class."
             ]
         },
         {
@@ -312,8 +312,8 @@
             "level": 2,
             "header": 2,
             "entries": [
-                "At 2nd level, you may Wild Shape into a beast with a swimming speed and a maximum challenge rating of 1/4. You also gain a swimming speed equal to your walking speed in your normal form.",
-                "If you know the cantrip druidcraft, you may cast it as a bonus action but only on the same turn as you use your action to transform into your Wild Shape. You also gain the following optional effects for druidcraft:",
+                "At 2nd level, you may {@classFeature Wild Shape|Druid|PHB|2|PHB} into a beast with a swimming speed and a maximum challenge rating of 1/4. You also gain a swimming speed equal to your walking speed in your normal form.",
+                "If you know the cantrip {@spell druidcraft}, you may cast it as a bonus action but only on the same turn as you use your action to transform into your Wild Shape. You also gain the following optional effects for druidcraft:",
                 {
                     "type": "list",
                     "items": [
@@ -333,7 +333,7 @@
             "level": 2,
             "header": 2,
             "entries": [
-                "Starting at 2nd level, you gain 2 capabilities from the list below. You gain Unarmored Defense and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
+                "Starting at 2nd level, you gain 2 capabilities from the list below. You gain {@optFeature Unarmored Defense|CotSR} and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
                 "Furthermore, each time you gain a level, you can replace any one capability with a new one you qualify for. You can only use these capabilities while in {@classFeature Wild Shape|Druid|PHB|2|PHB} form or while not wearing armor nor wielding a shield.",
                 "Some capabilities can only be used while in {@classFeature Wild Shape|Druid|PHB|2|PHB}.",
                 {
