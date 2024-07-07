@@ -213,10 +213,10 @@
                             "name": "Circle of the Storm Rider"
                         }
                     },
-					"otherSummary": {
-						"entry": "{@subclassFeature Circle Spells|Druid||Storm Rider|CotSR|2}",
-						"entrySummary": "Circle Spell"
-					}
+                    "otherSummary": {
+                        "entry": "{@subclassFeature Circle Spells|Druid||Storm Rider|CotSR|2}",
+                        "entrySummary": "Circle Spell"
+                    }
                 }
             ],
             "entries": [
