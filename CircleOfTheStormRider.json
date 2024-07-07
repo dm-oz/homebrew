@@ -312,7 +312,7 @@
             "level": 2,
             "header": 2,
             "entries": [
-                "At 2nd level, you may {@classFeature Wild Shape|Druid|PHB|2|PHB} into a beast with a swimming speed and a maximum challenge rating of 1/4. You also gain a swimming speed equal to your walking speed in your normal form.",
+                "At 2nd level, you may {@classFeature Wild Shape|Druid|PHB|2|PHB} into a beast with a swimming speed and a maximum challenge rating of {@filter 1/4|bestiary|challenge rating=[&0;&1/4]|type=beast|speed type=!fly|miscellaneous=!swarm}. You also gain a swimming speed equal to your walking speed in your normal form.",
                 "If you know the cantrip {@spell druidcraft}, you may cast it as a bonus action but only on the same turn as you use your action to transform into your Wild Shape. You also gain the following optional effects for druidcraft:",
                 {
                     "type": "list",
@@ -415,7 +415,7 @@
             "level": 6,
             "header": 2,
             "entries": [
-                "Starting at 6th level, you can {@classFeature Wild Shape|Druid|PHB|2|PHB} into any beast of challenge rating of 1/2 or lower, including beasts with a flying speed. If you know the cantrip {@spell druidcraft} you may cast it while in {@classFeature Wild Shape|Druid|PHB|2|PHB}."
+                "Starting at 6th level, you can {@classFeature Wild Shape|Druid|PHB|2|PHB} into any beast of challenge rating of {@filter 1/2|bestiary|challenge rating=[&0;&1/2]|type=beast|miscellaneous=!swarm} or lower, including beasts with a flying speed. If you know the cantrip {@spell druidcraft} you may cast it while in {@classFeature Wild Shape|Druid|PHB|2|PHB}."
             ]
         },
         {
@@ -442,7 +442,7 @@
             "header": 2,
             "entries": [
                 "At 10th level while in {@classFeature Wild Shape|Druid|PHB|2|PHB}, you can use your action to expend any 1 spell slot and change your beast form into a new form with a maximum challenge rating equal to 1 + the level of the spell slot expended. When you transform, as part of your action you may also choose a number of creatures you can see equal to the spell slot level you used. Those creatures can communicate with you normally while you are in beast form.",
-                "For instance, you can expend a level 9 spell slot and transform into a beast with a maximum challenge rating of 10 and can communicate with up to 9 creatures of your choice you could see when you transformed.",
+                "For instance, you can expend a level 9 spell slot and transform into a beast with a maximum challenge rating of {@filter 10|bestiary|challenge rating=[&0;&10]|type=beast|miscellaneous=!swarm} and can communicate with up to 9 creatures of your choice you could see when you transformed.",
                 "Additionally, when you use your action to transform into a beast, you can use your bonus action to expend spell slots for an improved {@classFeature Wild Shape|Druid|PHB|2|PHB} on the same turn. You can only use your bonus action in this way on the same turn that you use your action to transform into your Wild Shape from your normal form."
             ]
         },
