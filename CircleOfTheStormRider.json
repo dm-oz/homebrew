@@ -220,7 +220,8 @@
                 }
             ],
             "entries": [
-                "When you hit another creature with an attack using your selected {@subclassFeature Circle Spell|Druid||Storm Rider|CotSR|2} cantrip, you can expend any 1 spell slot to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. If the target is airborne or waterborne it makes its saving throw at a disadvantage. Any creature that succeeds its saving throw is immune to your stunning strike capability for 24 hours. {@b Storm Rider Adept feat:} This capability may only be gained with the Storm Rider Adept feat if you are a Circle of the Storm Rider Druid with 5 levels in the {@b druid} class."
+                "When you hit another creature with an attack using your selected {@subclassFeature Circle Spell|Druid||Storm Rider|CotSR|2} cantrip, you can expend any 1 spell slot to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn. If the target is airborne or waterborne it makes its saving throw at a disadvantage. Any creature that succeeds its saving throw is immune to your stunning strike capability for 24 hours.",
+                "{@b Storm Rider Adept feat:} This capability may only be gained with the Storm Rider Adept feat if you are a Circle of the Storm Rider Druid with 5 levels in the {@class druid} class."
             ]
         },
         {
