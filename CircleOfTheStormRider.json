@@ -336,6 +336,7 @@
                 "Starting at 2nd level, you gain 2 capabilities from the list below. You gain {@b {@i Unarmored Defense}} and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
                 "Furthermore, each time you gain a level, you can replace any one capability with a new one you qualify for. You can only use these capabilities while in {@classFeature Wild Shape|Druid|PHB|2|PHB} form or while not wearing armor nor wielding a shield.",
                 "Some capabilities can only be used while in {@classFeature Wild Shape|Druid|PHB|2|PHB}.",
+                "{@b Multiclass:} Circle of the Storm Riders who are multiclass must count only their {@b druid} levels to determine eligibility for a restricted capability. However, each time you gain a level in any class you can replace one capability with a new one.",
                 {
                     "type": "options",
                     "count": 2,
