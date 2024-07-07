@@ -94,7 +94,7 @@
                 "SRC"
             ],
             "entries": [
-                "While you are wearing no armor and not wielding a shield, you can roll a d4 in place of the normal damage of your unarmed strike or simple weapon. This die increases to a d6 at 5th level, d8 at 11th level, and a d10 at 17th. At 6th level your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. {@b Multiclass:} You must have the required druid levels to gain these damage increases.",
+                "While you are wearing no armor and not wielding a shield, you can roll a {@damage 1d4} in place of the normal damage of your unarmed strike or simple weapon. This die increases to a {@damage 1d6} at 5th level, {@damage 1d8} at 11th level, and a {@damage 1d10} at 17th. At 6th level your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. {@b Multiclass:} You must have the required druid levels to gain these damage increases.",
                 "When you use the Attack action with an unarmed strike or a simple weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.",
                 "You can choose to make two unarmed strikes instead of one in your bonus action by expending any 1 spell slot.",
                 "While in beast form, you may choose to use your unarmed damage die in place of one of the beast's available attacks that inflict bludgeoning, piercing, or slashing damage. For example, if the beast has a claw attack and a bite attack, you can elect to use your unarmed damage die in place of either the claw or bite damage, but not both. Your bonus action strikes for this form are the attack type you elected: claw or bite in this example. If a beast's attack does additional damage, such as poison damage, then that attack cannot be used as a bonus action strike."
@@ -171,7 +171,7 @@
                 }
             ],
             "entries": [
-                "The air around you buffets you if you fall, reducing any falling damage you take by an amount equal to five times your druid level, even if you are incapacitated. No action is required on your part, as the environment responds to your fall automatically. Once you benefit from this damage reduction, you cannot benefit from it again until you have finished a long rest. You must be in beast form, or you must not be wearing armor nor wielding a shield, in order to reduce damage in this way."
+                "The air around you buffets you if you fall, reducing any falling damage you take in any form by an amount equal to five times your druid level, even if you are incapacitated. No action is required on your part, as the environment responds to your fall automatically. Once you benefit from this damage reduction, you cannot benefit from it again until you have finished a long rest. You must not be wearing armor nor wielding a shield in order to reduce damage in this way."
             ]
         },
         {
@@ -333,7 +333,7 @@
             "level": 2,
             "header": 2,
             "entries": [
-                "Starting at 2nd level, you gain 2 capabilities from the list below. You gain {@i Unarmored Defense} and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
+                "Starting at 2nd level, you gain 2 capabilities from the list below. You gain {@b {@i Unarmored Defense}} and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
                 "Furthermore, each time you gain a level, you can replace any one capability with a new one you qualify for. You can only use these capabilities while in {@classFeature Wild Shape|Druid|PHB|2|PHB} form or while not wearing armor nor wielding a shield.",
                 "Some capabilities can only be used while in {@classFeature Wild Shape|Druid|PHB|2|PHB}.",
                 {
