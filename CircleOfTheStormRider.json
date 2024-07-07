@@ -49,7 +49,7 @@
                 "SRC"
             ],
             "entries": [
-                "While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier. You may also add your Wisdom modifier to your beast form's AC while in Wild Shape, and you can choose to make a Wisdom saving throw to maintain concentration on spells when damaged in any unarmored, unshielded form rather than a Constitution saving throw.",
+                "While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier. You may also add your Wisdom modifier to your beast form's AC while in {@classFeature Wild Shape|Druid|PHB|2|PHB}, and you can choose to make a Wisdom saving throw to maintain concentration on spells when damaged in any unarmored, unshielded form rather than a Constitution saving throw.",
                 "This capability is required for all 2nd-level Storm Rider druids; thereafter, this capability may be exchanged for another."
             ]
         },
@@ -61,7 +61,7 @@
                 "SRC"
             ],
             "entries": [
-                "You can expend any 1 spell slot to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn. When a creature you can see hits you with an attack roll before the start of your next turn, you can use your reaction to force that creature to reroll. You can use this bonus action and reaction while in beast form. You must not be wearing armor or wielding a shield to gain this benefit."
+                "You can expend any 1 spell slot to take the {@action Disengage} or {@action Dash} action as a bonus action on your turn, and your jump distance is doubled for the turn. When a creature you can see hits you with an attack roll before the start of your next turn, you can use your reaction to force that creature to reroll. You can use this bonus action and reaction while in beast form. You must not be wearing armor or wielding a shield to gain this benefit."
             ]
         },
         {
@@ -94,7 +94,7 @@
                 "SRC"
             ],
             "entries": [
-                "While you are wearing no armor and not wielding a shield, you can roll a d4 in place of the normal damage of your unarmed strike or simple weapon. This die increases to a d6 at 5th level, d8 at 11th level, and a d10 at 17th. At 6th level your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. {@b Multiclass:} You must have the required druid levels to gain these benefits.",
+                "While you are wearing no armor and not wielding a shield, you can roll a d4 in place of the normal damage of your unarmed strike or simple weapon. This die increases to a d6 at 5th level, d8 at 11th level, and a d10 at 17th. At 6th level your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. {@b Multiclass:} You must have the required druid levels to gain these damage increases.",
                 "When you use the Attack action with an unarmed strike or a simple weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.",
                 "You can choose to make two unarmed strikes instead of one in your bonus action by expending any 1 spell slot.",
                 "While in beast form, you may choose to use your unarmed damage die in place of one of the beast's available attacks that inflict bludgeoning, piercing, or slashing damage. For example, if the beast has a claw attack and a bite attack, you can elect to use your unarmed damage die in place of either the claw or bite damage, but not both. Your bonus action strikes for this form are the attack type you elected: claw or bite in this example. If a beast's attack does additional damage, such as poison damage, then that attack cannot be used as a bonus action strike."
@@ -106,6 +106,16 @@
             "isClassFeatureVariant": true,
             "featureType": [
                 "SRC"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Druid"
+                        }
+                    }
+                }
             ],
             "entries": [
                 "You gain lightning-fast reflexes, giving you an edge when you dodge away from danger. You have advantage on initiative rolls. Additionally, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, instead you can use your reaction to take no damage if you succeed on the saving throw, and only half damage if you fail. You can decide to use your reaction after you roll but before you know whether you succeed."
@@ -224,8 +234,8 @@
                 }
             ],
             "entries": [
-                "You always have the following spells prepared, which do not count against the maximum number of spells you can prepare: {@i thunderwave}, {@i gust of wind}, and {@i call lightning}.",
-                "You may cast these spells while in beast form, and you can concentrate on {@i call lightning} and {@i gust of wind} simultaneously. If your concentration is broken, then both spells end. Your beast form can also breathe underwater even if it does not normally."
+                "You always have the following spells prepared, which do not count against the maximum number of spells you can prepare: {@spell thunderwave}, {@spell gust of wind}, and {@spell call lightning}.",
+                "You may cast these spells while in beast form, and you can {@status concentration||concentrate} on {@spell call lightning} and {@spell gust of wind} simultaneously. If your concentration is broken, then both spells end. Your beast form can also breathe underwater even if it does not normally."
             ]
         },
         {
@@ -246,7 +256,7 @@
                 }
             ],
             "entries": [
-                "You can maintain your beast form despite grievous wounds. If you drop to 0 hit points while you're in beast form, you can make a saving throw as if you are concentrating on a spell against the damage you suffered. If you succeed, you drop to 1 hit point instead and remain in beast form.",
+                "You can maintain your beast form despite grievous wounds. If you drop to 0 hit points while you're in beast form, you can make a saving throw as if you are {@status concentration||concentrating} on a spell against the damage you suffered. If you succeed, you drop to 1 hit point instead and remain in beast form.",
                 "If you are concentrating on a spell, that spell ends automatically on your attempt to remain in beast form."
             ]
         }
@@ -287,9 +297,9 @@
             "level": 2,
             "header": 2,
             "entries": [
-                "When you choose this circle at 2nd level, you gain one extra cantrip as a Circle Spell from the following options: improved shillelagh (see below), eldritch blast, ray of frost, or shocking grasp. If you already know the chosen cantrip, you learn a different cantrip of your choice from the list of druid cantrips. The cantrip doesn't count against your number of cantrips known, but the cantrip is a druid cantrip for you even if it is normally unavailable to druids.",
-                "When you gain new cantrips at higher levels, your options include the cantrips listed above.",
-                "Improved shillelagh is identical to the cantrip shillelagh with the exception that the spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+                "When you choose this circle at 2nd level, you gain one extra cantrip as a Circle Spell from the following options: improved shillelagh (see below), {@spell eldritch blast}, {@spell ray of frost}, or {@spell shocking grasp}. If you already know the chosen cantrip, you learn a different cantrip of your choice from the list of druid cantrips. The cantrip doesn't count against your number of cantrips known, but the cantrip is a druid cantrip for you even if it is normally unavailable to druids.",
+                "When you gain new cantrips at higher levels, your options include the cantrips listed above. If you choose a new cantrip from the list above, you can replace your current Circle Spell with the new one.",
+                "Improved shillelagh is identical to the cantrip {@spell shillelagh} with the exception that the spell’s damage increases by 1d8 when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
             ]
         },
         {
@@ -324,8 +334,8 @@
             "header": 2,
             "entries": [
                 "Starting at 2nd level, you gain 2 capabilities from the list below. You gain Unarmored Defense and one other capability of your choice. You gain one additional capability of your choice at 6th, 10th, and 14th level. Some capabilities require you to have a minimum druid level in order to gain it.",
-                "Furthermore, each time you gain a level, you can replace any one capability with a new one you qualify for. You can only use these capabilities while in Wild Shape form or while not wearing armor nor wielding a shield.",
-                "Some capabilities can only be used while in Wild Shape.",
+                "Furthermore, each time you gain a level, you can replace any one capability with a new one you qualify for. You can only use these capabilities while in {@classFeature Wild Shape|Druid|PHB|2|PHB} form or while not wearing armor nor wielding a shield.",
+                "Some capabilities can only be used while in {@classFeature Wild Shape|Druid|PHB|2|PHB}.",
                 {
                     "type": "options",
                     "count": 2,
@@ -394,7 +404,7 @@
             "level": 6,
             "header": 2,
             "entries": [
-                "Starting at 6th level, you can Wild Shape into any beast of challenge rating of 1/2 or lower, including beasts with a flying speed. If you know the cantrip druidcraft you may cast it while in Wild Shape."
+                "Starting at 6th level, you can {@classFeature Wild Shape|Druid|PHB|2|PHB} into any beast of challenge rating of 1/2 or lower, including beasts with a flying speed. If you know the cantrip {@spell druidcraft} you may cast it while in {@classFeature Wild Shape|Druid|PHB|2|PHB}."
             ]
         },
         {
@@ -481,9 +491,9 @@
             "level": 10,
             "header": 2,
             "entries": [
-                "At 10th level while in Wild Shape, you can use your action to expend any 1 spell slot and change your beast form into a new form with a maximum challenge rating equal to 1 + the level of the spell slot expended. When you transform, as part of your action you may also choose a number of creatures you can see equal to the spell slot level you used. Those creatures can communicate with you normally while you are in beast form.",
+                "At 10th level while in {@classFeature Wild Shape|Druid|PHB|2|PHB}, you can use your action to expend any 1 spell slot and change your beast form into a new form with a maximum challenge rating equal to 1 + the level of the spell slot expended. When you transform, as part of your action you may also choose a number of creatures you can see equal to the spell slot level you used. Those creatures can communicate with you normally while you are in beast form.",
                 "For instance, you can expend a level 9 spell slot and transform into a beast with a maximum challenge rating of 10 and can communicate with up to 9 creatures of your choice you could see when you transformed.",
-                "Additionally, when you use your action to transform into a beast, you can use your bonus action to expend spell slots for an improved Wild Shape on the same turn. You can only use your bonus action in this way on the same turn that you use your action to transform into your Wild Shape from your normal form."
+                "Additionally, when you use your action to transform into a beast, you can use your bonus action to expend spell slots for an improved {@classFeature Wild Shape|Druid|PHB|2|PHB} on the same turn. You can only use your bonus action in this way on the same turn that you use your action to transform into your Wild Shape from your normal form."
             ]
         },
         {
@@ -575,7 +585,7 @@
             "level": 14,
             "header": 2,
             "entries": [
-                "You have resistance to cold, thunder, and lightning damage in any form at 14th level. Furthermore, if you fail a saving throw to maintain concentration on a spell when damaged by cold, thunder, and lightning, you can use your reaction to reroll the saving throw. You cannot use this aspect again until you have finished a short or long rest."
+                "You have resistance to cold, thunder, and lightning damage in any form at 14th level. Furthermore, if you fail a saving throw to maintain {@status concentration||concentration} on a spell when damaged by cold, thunder, and lightning, you can use your reaction to reroll the saving throw. You cannot use this aspect again until you have finished a short or long rest."
             ]
         },
         {
