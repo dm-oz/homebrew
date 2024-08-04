@@ -424,8 +424,8 @@
             "level": 2,
             "header": 2,
             "entries": [
-                "When you choose this circle at 2nd level, you gain one extra cantrip as a Circle Spell from the following options: {@spell improved shillelagh} (see below), {@spell thunder blast} (see below), {@spell ray of frost}, or {@spell shocking grasp}. If you already know the chosen cantrip, you learn a different cantrip of your choice from the list of druid cantrips. The cantrip doesn't count against your number of cantrips known, but the cantrip is a druid cantrip for you even if it is normally unavailable to druids.",
-                "When you gain new cantrips at higher levels, your options include the cantrips listed above. If you choose a new cantrip from the list above, you can replace your current Circle Spell with the new one.",
+                "When you choose this circle at 2nd level, you gain one extra cantrip as a Circle Spell from the following options: {@spell improved shillelagh|CotSR} (see below), {@spell thunder blast|CotSR} (see below), {@spell ray of frost}, or {@spell shocking grasp}. If you already know the chosen cantrip, you learn a different cantrip of your choice from the list of druid cantrips. The cantrip doesn't count against your number of cantrips known, but the cantrip is a druid cantrip for you even if it is normally unavailable to druids.",
+                "When you gain new cantrips at higher levels, your options include the cantrips listed above. If you choose a new cantrip from the list above, you can replace your current Circle Spell with the new one. You may still cast your old cantrip but it is no longer your Circle Spell.",
                 "Improved shillelagh is identical to the cantrip {@spell shillelagh} with the exception that the spell’s damage increases by 1d8 when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8}).",
                 "Thunder blast is identical to the cantrip {@spell eldritch blast} except the damage die is {@damage 1d8} and the damage type is thunder."
             ]
