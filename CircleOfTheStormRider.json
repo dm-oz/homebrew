@@ -40,65 +40,124 @@
             ]
         }
     ],
-	"spell": [
-		{
-    		"name": "Improved Shillelagh",
-    		"source": "DruidSubclassCircleoftheStormRider_dmoz",
-    		"level": 0,
-    		"school": "T",
-    		"time": [
-    			{
-    				"number": 1,
-    				"unit": "bonus"
-    			}
-    		],
-    		"range": {
-    			"type": "point",
-    			"distance": {
-    				"type": "touch"
-    			}
-    		},
-    		"components": {
-    			"v": true,
-    			"s": true,
-    			"m": "mistletoe, a shamrock leaf, and a club or quarterstaff"
-    		},
-    		"duration": [
-    			{
-    				"type": "timed",
-    				"duration": {
-    					"type": "minute",
-    					"amount": 1
-    				}
-    			}
-    		],
-    		"entries": [
-    			"The wood of a {@item club|phb} or {@item quarterstaff|phb} you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@dice d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.",
-    			"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
-    		],
-    		"classes": {
-    			"fromClassList": [],
-    			"fromSubclass": [
-    				{
-    					"class": {
-    						"name": "Druid",
-    						"source": "PHB"
-    					},
-    					"subclass": {
-    						"name": "Circle of the Storm Rider",
-    						"shortName": "Storm Rider",
-    						"source": "DruidSubclassCircleoftheStormRider_dmoz"
-    					}
-    				}
-    			]
-    		},
-    		"optionalfeatures": [
-    			{
-    				"name": "Storm Rider Adept",
-    				"source": "DruidSubclassCircleoftheStormRider_dmoz"
-    			}
-    		]
-    	}
+    "spell": [
+        {
+        	"name": "Improved Shillelagh",
+        	"source": "CotSR",
+        	"level": 0,
+        	"school": "T",
+        	"time": [
+        		{
+        			"number": 1,
+        			"unit": "bonus"
+        		}
+        	],
+        	"range": {
+        		"type": "point",
+        		"distance": {
+        			"type": "touch"
+        		}
+        	},
+        	"components": {
+        		"v": true,
+        		"s": true,
+        		"m": "mistletoe, a shamrock leaf, and a club or quarterstaff"
+        	},
+        	"duration": [
+        		{
+        			"type": "timed",
+        			"duration": {
+        				"type": "minute",
+        				"amount": 1
+        			}
+        		}
+        	],
+        	"entries": [
+        		"The wood of a {@item club|phb} or {@item quarterstaff|phb} you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@dice d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.",
+        		"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+        	],
+        	"classes": {
+        		"fromClassList": [],
+        		"fromSubclass": [
+        			{
+        				"class": {
+        					"name": "Druid",
+        					"source": "PHB"
+        				},
+        				"subclass": {
+        					"name": "Circle of the Storm Rider",
+        					"shortName": "Storm Rider",
+        					"source": "CotSR"
+        				}
+        			}
+        		]
+        	},
+        	"damageInflict": [
+        		"bludgeoning"
+        	]
+        },
+        {
+        	"name": "Thunder Blast",
+        	"source": "CotSR",
+        	"basicRules": true,
+        	"level": 0,
+        	"school": "V",
+        	"time": [
+        		{
+        			"number": 1,
+        			"unit": "action"
+        		}
+        	],
+        	"range": {
+        		"type": "point",
+        		"distance": {
+        			"type": "feet",
+        			"amount": 120
+        		}
+        	},
+        	"components": {
+        		"v": true,
+        		"s": true
+        	},
+        	"duration": [
+        		{
+        			"type": "instant"
+        		}
+        	],
+        	"entries": [
+        		"A beam of booming energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} thunder damage.",
+        		"The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+        	],
+        	"spellAttack": [
+        		"R"
+        	],
+        	"miscTags": [
+        		"SCL"
+        	],
+        	"areaTags": [
+        		"MT",
+        		"ST"
+        	],
+        	"classes": {
+        		"fromClassList": [],
+        		"fromSubclass": [
+        			{
+        				"class": {
+        					"name": "Druid",
+        					"source": "PHB"
+        				},
+        				"subclass": {
+        					"name": "Circle of the Storm Rider",
+        					"shortName": "",
+        					"source": "CotSR"
+        				}
+        			}
+        		]
+        	},
+        	"damageInflict": [
+        		"thunder"
+        	]
+        }
     ],
     "optionalfeature": [
         {
@@ -365,9 +424,10 @@
             "level": 2,
             "header": 2,
             "entries": [
-                "When you choose this circle at 2nd level, you gain one extra cantrip as a Circle Spell from the following options: improved shillelagh (see below), {@spell eldritch blast}, {@spell ray of frost}, or {@spell shocking grasp}. If you already know the chosen cantrip, you learn a different cantrip of your choice from the list of druid cantrips. The cantrip doesn't count against your number of cantrips known, but the cantrip is a druid cantrip for you even if it is normally unavailable to druids.",
+                "When you choose this circle at 2nd level, you gain one extra cantrip as a Circle Spell from the following options: {@spell improved shillelagh} (see below), {@spell thunder blast} (see below), {@spell ray of frost}, or {@spell shocking grasp}. If you already know the chosen cantrip, you learn a different cantrip of your choice from the list of druid cantrips. The cantrip doesn't count against your number of cantrips known, but the cantrip is a druid cantrip for you even if it is normally unavailable to druids.",
                 "When you gain new cantrips at higher levels, your options include the cantrips listed above. If you choose a new cantrip from the list above, you can replace your current Circle Spell with the new one.",
-                "Improved shillelagh is identical to the cantrip {@spell shillelagh} with the exception that the spell’s damage increases by 1d8 when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+                "Improved shillelagh is identical to the cantrip {@spell shillelagh} with the exception that the spell’s damage increases by 1d8 when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8}).",
+                "Thunder blast is identical to the cantrip {@spell eldritch blast} except the damage die is {@damage 1d8} and the damage type is thunder."
             ]
         },
         {
